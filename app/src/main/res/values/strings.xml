@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">helloVoiceHelper</string>
+    <string name="RequestCode">获取邀请码，联系QQ1436983000</string>
+    <string name="accessibility_description">Hello语音助手</string>
+    <string name="contack">qq1436983000</string>
+    <string name="noword">暂无口令，默认接收全部指令</string>
+</resources>

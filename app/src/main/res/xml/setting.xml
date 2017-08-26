@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="配置项">
+        <EditTextPreference
+            android:hint="请输入你的邀请码"
+            android:key="VERIFFY_CODE"
+            android:maxLength="7"
+            android:maxLines="1"
+            android:summary="当前机器码:"
+            android:title="邀请码填写" />
+        <EditTextPreference
+            android:hint="请输入口令"
+            android:key="SET_WORD"
+            android:maxLength="7"
+            android:maxLines="1"
+            android:summary="@string/noword"
+            android:title="口令设置" />
+        <Preference
+            android:title="辅助服务"
+            android:summary="设置服务"
+            android:key="SETTING_SERVICE"/>
+    </PreferenceCategory>
+</PreferenceScreen>

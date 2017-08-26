@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="WELCOME"
+            android:textColor="#999999"
+            android:textSize="45sp"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="使用说明"
+        android:shadowColor="#9999"
+        android:layout_margin="5dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="23sp"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/iv"
+        android:src="@drawable/help"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:layout_height="0dp" />
+    <Button
+        android:id="@+id/bt"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加" />
+</LinearLayout>
